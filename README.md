@@ -9,7 +9,7 @@ mvn deploy
 1. nexus (http://192.168.9.194:32001/#browse/browse) 에 접속 후 로그인 진행 (아이디: admin / 비밀번호: admin)
 2. "test-hosted" repository 에 echo_maven 업로드 확인
 
-## Terminal 에서 jar 실행
+## Terminal 에서 jar 실행 
 ```
 java -jar ./target/echo_maven-0.0.1.SNAPSHOT.jar
 ```
