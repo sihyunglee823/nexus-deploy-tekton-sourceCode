@@ -10,14 +10,11 @@ mvn deploy
 2. "test-hosted" repository 에 echo_maven 업로드 확인
 
 ## Terminal 에서 jar 실행
-1. ./target 폴더 이동
-2. jar 파일 실행
 ```
-java -jar echo_maven-0.0.1.SNAPSHOT.jar
+java -jar ./target/echo_maven-0.0.1.SNAPSHOT.jar
 ```
-3. localhost:8080/echo/ 접속
 
-### 코드실행화면
+## 코드실행화면
 {address}/echo/hello -> hello 출력
 
 ![image](/figure/소스코드_실행화면1.png)
